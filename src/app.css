@@ -17,6 +17,7 @@
 }
 .list_style_none{
   list-style-type: none !important;
+  text-decoration: none !important;
 }
 .gap-40 {
   gap: 40px;

@@ -25,7 +25,7 @@ const Navbaar = () => {
               <ul
                 className={`${
                   nav ? "start-0" : "start_100"
-                } mb-0 ps-0 d-flex align-items-center gap-40 mobile_view `}
+                } mb-0 ps-0 d-flex align-items-center gap-40 mobile_view  list_style_none`}
               >
                 <li className=" overflow-hidden">
                   <a  

@@ -2,7 +2,6 @@ import React from "react";
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
 import Hero from "./components/Hero";
 import Fault from "./components/Fault";
 import Consultation from "./components/Consultation";
@@ -20,17 +19,17 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      <Fault/>
-      <Consultation/>
-      <Get/>
-      <Target/>
-      <Mindset/>
-      <Section5/>
-      <Section6/>
-      <Clients/>
-      <Strategy/>
-      <Behind/>
-      <Footer/>
+      <Fault />
+      <Consultation />
+      <Get />
+      <Target />
+      <Mindset />
+      <Section5 />
+      <Section6 />
+      <Clients />
+      <Strategy />
+      <Behind />
+      <Footer />
     </div>
   );
 }

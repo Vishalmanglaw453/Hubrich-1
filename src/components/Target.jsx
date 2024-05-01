@@ -10,7 +10,9 @@ const Target = () => {
               <div className="TARGET_max_w w-100 d-flex  flex-lg-row flex-column justify-content-between align-items-center">
                 <h2 className=" mb-0 ff-helve fw-normal text-52 lh-66 text-black text-uppercase">
                   <span className=" color-brown">TARGET</span> group
-                </h2>
+                </h2>   
+
+                
                 <div className=" d-flex align-items-center gap-11">
                   <hr className="target_blur_line " />
                   <p className=" text-black mb-0 ">

@@ -17,6 +17,8 @@
 }
 .list_style_none{
   list-style-type: none !important;
+}
+.text_d{
   text-decoration: none !important;
 }
 .gap-40 {

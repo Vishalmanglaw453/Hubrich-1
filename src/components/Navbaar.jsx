@@ -27,7 +27,7 @@ const Navbaar = () => {
                   nav ? "start-0" : "start_100"
                 } mb-0 ps-0 d-flex align-items-center gap-40 mobile_view  list_style_none`}
               >
-                <li className=" overflow-hidden">
+                <li className=" overflow-hidden text_d">
                   <a  
                     onClick={show}
                     href=""
@@ -36,7 +36,7 @@ const Navbaar = () => {
                     Benifits
                   </a>
                 </li>
-                <li className=" overflow-hidden">
+                <li className=" overflow-hidden text_d">
                   <a
                     onClick={show}
                     href=""
@@ -45,7 +45,7 @@ const Navbaar = () => {
                     Testimonials
                   </a>
                 </li>
-                <li>
+                <li className="text_d">
                   <button className="  ff-inter fw-medium text-16 lh-24  text-white border-0 nav_btn">
                     Book consultation now
                   </button>
